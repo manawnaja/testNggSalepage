@@ -239,7 +239,7 @@ nav {
   max-width: 520px;
   margin: 0 auto 20px;
   color: var(--ivory);
-  font-size: 14px;
+  font-size: 3vw;
   line-height: 1.8;
 }
 .closing .button-ev {
@@ -321,6 +321,32 @@ footer .logo { display: inline-block; text-align: left; }
 .banner-text-02{position:absolute;top:86%;left:50%;transform:translate(-50%,-50%);width:100%;text-align:center;color:#000;line-height:normal;z-index:1}
 .banner-text-02 h2{font-size:clamp(25px,2.2vw,46px);font-weight:600;margin:0 0 24px}
 .banner-text-02 p{font-size:clamp(18px,1.8vw,36px);line-height:1.45;margin:0}
+
+
+/* จัดชื่อสินค้าให้สูงเท่ากัน */
+.product h3 {
+  height: 3em;
+  line-height: 1.5;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+/* จัดรายละเอียดสินค้าให้สูงเท่ากัน */
+.product p {
+  height: 3em;
+  line-height: 1.5;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+/* เว้นระยะปุ่ม Explore ให้สม่ำเสมอ */
+.product .price {
+  margin-top: 7px;
+}
 
 </style>
 </head>
