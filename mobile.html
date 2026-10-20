@@ -247,35 +247,7 @@ nav {
   color: var(--deep-red);
 }
 
-/* 10. Footer */
-footer {
-  display: grid;
-  grid-template-columns: 1.4fr 1fr 1fr 1fr;
-  gap: 25px;
-  padding: 35px 5.5% 20px;
-  background: #FBF3EF;
-  color: var(--muted);
-  font-size: 10px;
-  line-height: 2;
-}
-footer h4 {
-  margin: 0 0 9px;
-  color: var(--deep-red);
-  font-size: 9px;
-  letter-spacing: 1.5px;
-}
-footer .logo { display: inline-block; text-align: left; }
-.copyright {
-  display: flex;
-  grid-column: 1 / -1;
-  justify-content: space-between;
-  gap: 12px;
-  margin-top: 8px;
-  padding-top: 15px;
-  border-top: 1px solid var(--line);
-  color: var(--muted);
-  font-size: 9px;
-}
+
 
 /* 11. Mobile */
 @media (max-width: 760px) {
@@ -303,11 +275,7 @@ footer .logo { display: inline-block; text-align: left; }
     margin: 20px auto 32px;
   }
   .promo h3 { font-size: 17px; }
-  footer {
-    grid-template-columns: 1fr 1fr;
-    padding: 28px 20px;
-  }
-  .footer-brand { grid-column: 1 / -1; }
+
   .copyright { flex-direction: column; }
 }
 
@@ -325,7 +293,7 @@ footer .logo { display: inline-block; text-align: left; }
 
 /* จัดชื่อสินค้าให้สูงเท่ากัน */
 .product h3 {
-  height: 3em;
+  height: 1.5em;
   line-height: 1.5;
   overflow: hidden;
   display: -webkit-box;
@@ -347,6 +315,8 @@ footer .logo { display: inline-block; text-align: left; }
 .product .price {
   margin-top: 7px;
 }
+
+
 
 </style>
 </head>
